@@ -34,25 +34,18 @@ h1 {
   transition: 300ms ease all;
 }
 
-nav .left {
+.left {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
 }
-
-nav .middle {
+.middle {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
-h1 .middle {
-  width: auto;
-}
-
-nav .right {
+.right {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
 }
 
 a:hover {
