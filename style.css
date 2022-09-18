@@ -28,24 +28,14 @@ nav {
 }
 
 h1 {
-  font-family: "Bebas Neue";
+  font-family: "Bebas Neue", sans-serif;
   color: white;
-  font-size: 2.3em;
+  font-size: 1.58rem;
+
   transition: 300ms ease all;
 }
 
-.left {
-  display: flex;
-  justify-content: flex-start;
-}
-.middle {
-  display: flex;
-  justify-content: space-around;
-}
-
-.right {
-  display: flex;
-  justify-content: flex-end;
+h1 a {
 }
 
 a:hover {
